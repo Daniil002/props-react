@@ -6,7 +6,7 @@ function App() {
   /* родительский компонент передает в дочерний свойсво (props) */
   return (
     <div className="App">
-      <PetInfo animal='cat' age='11' />
+      <PetInfo animal='cat' age='11' hasPet={true} />
     </div>
   );
 }
